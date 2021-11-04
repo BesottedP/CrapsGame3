@@ -3,9 +3,8 @@ package com.company;
 public class Die {
     private int NumDots;
 
-    public int roll(){
+    public void roll(){
         NumDots = (int) (Math.random()*6)+1;
-        return NumDots;
     }
     public int getNumDots(){
         return NumDots;
